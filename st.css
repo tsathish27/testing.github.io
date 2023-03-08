@@ -417,5 +417,92 @@ top: 3100px;
     transform:translateY(0);
     opacity: 1;
 }
+@media screen and (max-width:600px) {
+*{
+        overflow-x: hidden;
+}
+ 
+.slogo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    size: 20px;
+    top: 23px;
+    left:10px;   
+}
+ 
+
+.logo{
+    left:60px;
+    top: 25px;
+    font-size:20px;
+    
+}
+#light{
+    left:350px;
+    top:38px;
+    width: 15px;
+    height: 15px;
+}
+.immg {
+    position: absolute;
+    width: 333px;
+    height: 353px;
+    left: 34px;
+    top: 117px;
+    background: url(image.png);
+    border-radius: 108px;
+}
+ 
+.name {
+    position: absolute;
+    width: 480px;
+    height: 60px;
+    left: 70px;
+    top: 500px;
+    overflow: hidden;
+    font-family: 'Segoe Fluent Icons';
+    font-style: normal;
+    font-size:25px;
+    text-decoration: wavy;
+    line-height: 60px;
+   
+
+}
+.names{
+    font-size: 40px;
+}
+.sname{
+    top:550px;
+    left:140px;
+    font-size: medium;
+}
+.tw{
+    left:75px;
+    top:595px;
+    height: 15px;
+    width: 15px;
+}
+.tw{
+    left:145px;
+    top:595px;
+    height: 15px;
+    width: 15px;
+}
+.in{
+    left:195px;
+    top:595px;
+    height: 15px;
+    width: 15px;
+}
+.lin{
+    left:240px;
+    top:595px;
+    height: 15px;
+    width: 15px;
+}
+ 
+}
 
 
